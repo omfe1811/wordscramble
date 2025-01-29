@@ -2,7 +2,7 @@ namespace WordScramble
 {
     public class WordInput
     {
-        public string SecretWord()
+        public string SecretWord(string UserInput)
         {
 
             char[] WordChars = UserInput.ToCharArray();
