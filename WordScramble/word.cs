@@ -2,14 +2,16 @@ namespace WordScramble
 {
     public class WordInput
     {
-        public string SecretWord()
+        public string SecretWord(string UserInput)
         {
-
-            char[] WordChars = UserInput.ToCharArray();
+            /* char[] wordChars = UserInput.ToCharArray(); */
             Random rand = new Random();
-            WordChars = WordChars.OrderBy(x => rand.Next()).ToArray();
-            string scrambled = new string(WordChars);
+            char[] wordChars = "happy".ToCharArray();
+            wordChars = wordChars.OrderBy(x => rand.Next()).ToArray();
+            string scrambled = new string(wordChars);
+            Console.WriteLine(scrambled);
             return scrambled;
+
         }
 
 
