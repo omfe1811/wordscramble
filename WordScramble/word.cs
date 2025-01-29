@@ -11,7 +11,5 @@ namespace WordScramble
             string scrambled = new string(wordChars);
             //Console.WriteLine(scrambled);
             return scrambled;
-
-        }
     }
 }
