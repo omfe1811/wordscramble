@@ -9,13 +9,16 @@ namespace WordScramble
         public static void Main(string[] args)
         {
             Console.WriteLine("Enter a secret word");
-            /*  1.Splitting and Joining Strings:
-                 o Use .Split() to break a string into parts(e.g., for Caesar Cipher).
-                 o Use string.Join() to combine parts into a single string.
-                string[] words = "apple orange banana".Split(' ');
-                string combined = string.Join("-", words);
-                        Output:
-                "apple-orange-banana"
+            string secretWord = Console.ReadLine();
+            if (secretWord == null)
+            {
+                Console.WriteLine("You must enter a word!");
+            }
+            else 
+            {
+                Console.Clear();
+            }
+            /*  
                 2.Iterating Through Characters:
                  o Use a foreach loop or for loop to process each character in a string.
                  foreach (char c in "HELLO")
