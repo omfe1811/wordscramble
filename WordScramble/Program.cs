@@ -7,7 +7,7 @@ namespace WordScramble
         {
             Console.WriteLine("Enter a secret word");
             string secretWord = Console.ReadLine().ToUpper();
-            if (secretWord == null)
+            if (secretWord == string.Empty)
             {
                 Console.WriteLine("You must enter a word!");
             }
