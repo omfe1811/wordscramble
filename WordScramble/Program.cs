@@ -30,7 +30,7 @@ namespace WordScramble
                 } 
                 else 
                 {
-                    Console.WriteLine("Wrong! Try again");
+                    Console.WriteLine("Wrong! Try again"); 
                 }
             }
         }
