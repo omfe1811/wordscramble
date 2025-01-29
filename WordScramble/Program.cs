@@ -8,7 +8,7 @@ namespace WordScramble
 
         public static void Main(string[] args)
         {
-            Console.WriteLine("Enter a secret word");
+
             /* 
                             2.Iterating Through Characters:
                                 o Use a foreach loop or for loop to process each character in a string.
