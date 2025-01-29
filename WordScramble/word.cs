@@ -9,12 +9,7 @@ namespace WordScramble
             char[] wordChars = UserInput.ToCharArray();
             wordChars = wordChars.OrderBy(x => rand.Next()).ToArray();
             string scrambled = new string(wordChars);
-            Console.WriteLine(scrambled);
+            //Console.WriteLine(scrambled);
             return scrambled;
-
-        }
-
-
-
     }
 }

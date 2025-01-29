@@ -1,11 +1,8 @@
 ﻿using System;
-
 namespace WordScramble
 {
-
     internal class Program
     {
-
         public static void Main(string[] args)
         {
             Console.WriteLine("Enter a secret word");
@@ -18,10 +15,6 @@ namespace WordScramble
             {
                 Console.Clear();
             }
-
-            string scrambled = WordInput.SecretWord(secretWord);
-            Console.WriteLine(scrambled);
-
             while(true)
             {
                 Console.WriteLine("Enter your guess:");
@@ -30,6 +23,14 @@ namespace WordScramble
                 {
                     Console.WriteLine($"You're right, the word was {secretWord}");
                     break;
+
+                } 
+                else 
+                {
+                    Console.WriteLine("Wrong! Try again"); 
+                }
+            }
+
                 }
             }
             /*  
@@ -58,6 +59,7 @@ namespace WordScramble
                     arr = arr.OrderBy(x => rand.Next()).ToArray();
                     string scrambled = new string(arr)
 */
+
         }
     }
 }
