@@ -13,11 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WordScramble")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ddd740620e2d7324c8b348d62aca82c1d91788f")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d3a5824b1e315df66ea8474e38971d89fab0c1d")]
->>>>>>> main
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95586cc27d1b001e9fb03cee3c1665b912514aea")]
 [assembly: System.Reflection.AssemblyProductAttribute("WordScramble")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WordScramble")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
