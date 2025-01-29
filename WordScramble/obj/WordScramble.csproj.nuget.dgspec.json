@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Instruktor\\Desktop\\kursStuff\\c\\dec5circle\\kurs\\wordscramble\\WordScramble\\WordScramble.csproj": {}
+    "C:\\Users\\Instruktor\\Documents\\Assignments\\wordscramble\\WordScramble\\WordScramble.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Instruktor\\Desktop\\kursStuff\\c\\dec5circle\\kurs\\wordscramble\\WordScramble\\WordScramble.csproj": {
+    "C:\\Users\\Instruktor\\Documents\\Assignments\\wordscramble\\WordScramble\\WordScramble.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Instruktor\\Desktop\\kursStuff\\c\\dec5circle\\kurs\\wordscramble\\WordScramble\\WordScramble.csproj",
+        "projectUniqueName": "C:\\Users\\Instruktor\\Documents\\Assignments\\wordscramble\\WordScramble\\WordScramble.csproj",
         "projectName": "WordScramble",
-        "projectPath": "C:\\Users\\Instruktor\\Desktop\\kursStuff\\c\\dec5circle\\kurs\\wordscramble\\WordScramble\\WordScramble.csproj",
+        "projectPath": "C:\\Users\\Instruktor\\Documents\\Assignments\\wordscramble\\WordScramble\\WordScramble.csproj",
         "packagesPath": "C:\\Users\\Instruktor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Instruktor\\Desktop\\kursStuff\\c\\dec5circle\\kurs\\wordscramble\\WordScramble\\obj\\",
+        "outputPath": "C:\\Users\\Instruktor\\Documents\\Assignments\\wordscramble\\WordScramble\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,8 +26,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json%20-n%20nuget.org": {}
         },
         "frameworks": {
           "net9.0": {
