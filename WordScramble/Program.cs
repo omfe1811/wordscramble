@@ -7,59 +7,59 @@ namespace WordScramble
         {
             Console.WriteLine("Enter a secret word");
             string secretWord = Console.ReadLine().ToUpper();
-            if (secretWord == null)
+            if (secretWord == string.Empty)
             {
                 Console.WriteLine("You must enter a word!");
             }
-            else 
+            else
             {
                 Console.Clear();
             }
-            while(true)
+            string scrambled = WordInput.SecretWord(secretWord);
+            Console.WriteLine(scrambled);
+            while (true)
             {
                 Console.WriteLine("Enter your guess:");
                 string guess = Console.ReadLine().ToUpper();
-                if(guess == secretWord)
+                if (guess == secretWord)
                 {
                     Console.WriteLine($"You're right, the word was {secretWord}");
                     break;
 
-                } 
-                else 
+                }
+                else
                 {
-                    Console.WriteLine("Wrong! Try again"); 
+                    Console.WriteLine("Wrong! Try again");
                 }
             }
-
-                }
-            }
-            /*  
-                2.Iterating Through Characters:
-                 o Use a foreach loop or for loop to process each character in a string.
-                 foreach (char c in "HELLO")
-                {
-                     Console.WriteLine(c);
-                }
-                3.Comparing Strings:
-                 o Use .Equals() for case -sensitive comparison.
-                 o Use .ToLower() or.ToUpper() to normalize strings for comparison.
-                string input = "HELLO";
-                 if (input.ToUpper() == "HELLO")
-                  Console.WriteLine("Match!");
-                4.Reversing or Scrambling:
-                 o Use .ToCharArray() to convert a string to a character array, then shuffle or
-                  reverse it.
-                  char[] arr = "apple".ToCharArray();
-                  Array.Reverse(arr);
-                  string reversed = new string(arr); 
-                  Output: "elppa"
-                 o Use .ToCharArray() and Random to shuffle characters for scrambling.
-                    char[] arr = word.ToCharArray();
-                    Random rand = new Random();
-                    arr = arr.OrderBy(x => rand.Next()).ToArray();
-                    string scrambled = new string(arr)
-*/
 
         }
     }
+    /*  
+        2.Iterating Through Characters:
+         o Use a foreach loop or for loop to process each character in a string.
+         foreach (char c in "HELLO")
+        {
+             Console.WriteLine(c);
+        }
+        3.Comparing Strings:
+         o Use .Equals() for case -sensitive comparison.
+         o Use .ToLower() or.ToUpper() to normalize strings for comparison.
+        string input = "HELLO";
+         if (input.ToUpper() == "HELLO")
+          Console.WriteLine("Match!");
+        4.Reversing or Scrambling:
+         o Use .ToCharArray() to convert a string to a character array, then shuffle or
+          reverse it.
+          char[] arr = "apple".ToCharArray();
+          Array.Reverse(arr);
+          string reversed = new string(arr); 
+          Output: "elppa"
+         o Use .ToCharArray() and Random to shuffle characters for scrambling.
+            char[] arr = word.ToCharArray();
+            Random rand = new Random();
+            arr = arr.OrderBy(x => rand.Next()).ToArray();
+            string scrambled = new string(arr)
+*/
+
 }
